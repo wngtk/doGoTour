@@ -16,6 +16,16 @@ func Sqrt(x float64) float64 {
 	return guess
 }
 
+
+
+func approx_eq(x, y float64) bool {
+	return math.Abs(x - y) < 1E-15
+}
+
+func near_zero(x float64) bool {
+	return approx_eq(x, 0)
+}
+
 func main() {
 	fmt.Println(Sqrt(4))
 }
