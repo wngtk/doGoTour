@@ -24,4 +24,4 @@ go get 可以下载包。go mod tidy 会生成一个 go.sum 文件，用于模�
 
 ## Go 语言使用第三方库
 
-import 包名的前面加上包的位置
+import 包的路径
