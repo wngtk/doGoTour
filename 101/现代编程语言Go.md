@@ -20,8 +20,8 @@ go init mod example/hello # Enable dependency tracking for your code.
 go mod tidy # Add new module requirements and sums.
 ```
 
-go get 可以下载包。go mod tidy 会生成一个 go.sum 文件，用于模块认证。go init mod 会生成一个 go.mod 用来管理依赖的模块。
+go get 可以下载包。go mod tidy 会生成一个 go.sum 文件，用于模块认证。go init mod 会生成一个 go.mod 用来管理模块的依赖。
 
 ## Go 语言使用第三方库
 
-import 包的路径
+import 包的路径。go.mod 种描述了模块所依赖的包。
